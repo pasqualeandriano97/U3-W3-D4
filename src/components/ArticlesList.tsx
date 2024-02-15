@@ -23,6 +23,7 @@ function ArticleList() {
   console.log("articles", articles);
   return (
     <Container>
+      <h1 className="my-3">Notizie dallo SPAZIO</h1>
       <Row className="justify-content-center g-3 ">
         {articles.map((article) => (
           <SingleArticle key={article.id} article={article} />

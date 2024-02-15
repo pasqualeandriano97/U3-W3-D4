@@ -2,11 +2,11 @@ export interface SingleArticle {
   id: number;
   title: string;
   url: string;
-  image_url: string;
-  news_site: string;
+  imageUrl: string;
+  newsSite: string;
   summary: string;
-  published_at: Date;
-  updated_at: Date;
+  publishedAt: Date;
+  updatedAt: Date;
   featured: boolean;
   launches: never[];
   events: never[];
